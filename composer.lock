@@ -4,8 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb2c9db69de60e670d579b3058baa7a9",
+    "content-hash": "107d122a9d6c5fe9be883eae396ae166",
     "packages": [
+        {
+            "name": "incompass/timestampable-bundle",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/incompass/TimestampableBundle.git",
+                "reference": "29834a8449cca3c165248dabe95955b1e747c67c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/incompass/TimestampableBundle/zipball/29834a8449cca3c165248dabe95955b1e747c67c",
+                "reference": "29834a8449cca3c165248dabe95955b1e747c67c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "*",
+                "doctrine/orm": "*",
+                "phpunit/phpunit": "^4.2|^5.0",
+                "symfony/framework-bundle": "~2.7|~3.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Incompass\\TimestampableBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Mizzi",
+                    "email": "joe@casechek.com"
+                }
+            ],
+            "description": "Simple, efficient timestamps for symfony with doctrine",
+            "homepage": "http://github.com/incompass/TimestampableBundle",
+            "keywords": [
+                "doctrine",
+                "timestamp"
+            ],
+            "time": "2018-09-22T23:36:11+00:00"
+        },
         {
             "name": "monolog/monolog",
             "version": "1.0.2",

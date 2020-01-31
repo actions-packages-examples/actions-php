@@ -3,6 +3,7 @@
     "description": "Example project for using PHP in GitHub Actions.",
     "license": "MIT",
     "require": {
-        "monolog/monolog": "1.0.*"
+        "monolog/monolog": "1.0.*",
+        "incompass/timestampable-bundle": "^2.2"
     }
 }
